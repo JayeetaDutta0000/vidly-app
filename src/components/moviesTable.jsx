@@ -7,7 +7,7 @@ class MoviesTable extends Component {
     { path: "title", label: "Title" },
     { path: "genre.name", label: "Genre" },
     { path: "numberInStock", label: "Stock" },
-    { path: "dailyRentalRate", label: "" },
+    { path: "dailyRentalRate", label: "Rate" },
     {
       path: "like",
       content: (movie) => (
