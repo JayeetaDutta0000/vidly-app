@@ -65,7 +65,7 @@ class Movies extends Component {
 
     const movies = paginate(sorted, currentPage, pageSize);
 
-    return { totalCount: totalCount, data: movies };
+    return { totalCount: filtered.length, data: movies };
   };
 
   render() {
